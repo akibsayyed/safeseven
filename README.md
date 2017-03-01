@@ -50,30 +50,30 @@ Running client on actual ss7 network
 
 //Client 
 
-SERVER_IP=<IP of STP you are connecting to>
+SERVER_IP="IP of STP you are connecting to"
 
-CLIENT_IP=<IP address provisioned for you in STP>
+CLIENT_IP="IP address provisioned for you in STP"
 
-SERVER_PORT=<STP port>
+SERVER_PORT="STP port"
 
-CLIENT_PORT=<client provisioned port>
+CLIENT_PORT="client provisioned port"
 
-IS_SERVER=FALSE <should be always false>
+IS_SERVER=FALSE "should be always false"
 
-Local_SPC=<point code assigned to you>
+Local_SPC="point code assigned to you"
 
-Remote_SPC=<point code of STP>
+Remote_SPC="point code of STP"
 
-Local_SSN=<local ssn>
+Local_SSN="local ssn"
 
-Remote_SSN=<remote ssn>
+Remote_SSN="remote ssn"
 
-Routing_Context=<routing context assigned to you by STP>
+Routing_Context="routing context assigned to you by STP"
 
-NETWORK_INDICATOR=<Network indicator>
+NETWORK_INDICATOR="Network indicator"
 
-Local_GT=<Local global title assigned to you>
+Local_GT="Local global title assigned to you"
 
-Remote_GT=<remote Global title you are testing>
+Remote_GT="remote Global title you are testing"
 
 	
