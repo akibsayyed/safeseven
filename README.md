@@ -1,53 +1,52 @@
-# safeseven
-SS7 Assessment Tool
+# safeseven : SS7 Assessment Tool
 
 
-Requirements:
+## Requirements
 
-Linux OS with sctp support
-
-JRE 1.7 or above
-
+* Linux OS with sctp support
+* JRE 1.7 or above
 
 
+## simulating ss7 network 
 
-simulating ss7 network 
-
-	simulating HLR
+simulating HLR
 	
 	java -jar server.jar hlr_config
 	
-	simulating msc/vlr
+simulating msc/vlr
 	
 	java -jar server.jar vlr_config
 	
-	running STP 
+running STP 
 	
 	java -jar STP.jar stp_config
 	
 
 
-Running safeseven
+## Running safeseven
 
-	SMS related operations
+SMS related operations
 	
 	java -jar SMS.jar client_config
 	
-	USSD related operations
+USSD related operations
 	
 	java -jar ussd.jar client_config
 	
-	Call Related operations
+Call Related operations
 	
 	java -jar Call_Handling.jar client_config
 	
-	Mobility related operations
+Mobility related operations
 	
 	java -jar Mobility.jar client_config
 	
 
-Running client on actual ss7 network
+## Running client on actual ss7 network
 
+Edit client_config file.
+
+```
 //Client 
 
 SERVER_IP="IP of STP you are connecting to"
@@ -76,4 +75,4 @@ Local_GT="Local global title assigned to you"
 
 Remote_GT="remote Global title you are testing"
 
-	
+```	
