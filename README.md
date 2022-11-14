@@ -77,18 +77,23 @@ Remote_GT="remote Global title you are testing"
 
 ```	
 ## Added Vulnerable Diameter Network
-...
-Steps 
+```
+Steps
+
 1: Read SCTP protocol
+
 2: Read Diameter Protocol
+
 3: Read S6a Interface of Diameter
+
 4: Run vulnerable Diameter : java -jar dvdn.jar
+
 5: Use Diameter Exploitation tools to exploit & learn Diameter Exploitation
 
 Note: Only basic version is implemented as of now 
 
 
-...
+```
 
 
 ## Many people want to run this tool but dont want to do little research 
